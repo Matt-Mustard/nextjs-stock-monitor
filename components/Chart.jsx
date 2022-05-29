@@ -21,12 +21,6 @@ const App = () => {
         var data_objects = Object.values(datapoints);
 
         const new_timeseries = timeseries.map(date => new Date(date))
-        
-        const open_series = Number(data_objects[0]["1. open"])
-        const high_series = Number(data_objects[0]["2. high"])
-        const low_series = Number(data_objects[0]["3. low"])
-        const close_series = Number(data_objects[0]["4. close"])
-        const volume_series = Number(data_objects[0]["5. volume"])
 
         const stockDataArr = []
 
